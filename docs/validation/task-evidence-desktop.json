@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22T15:20:33.762Z",
+  "checks": [
+    "Editor persists acceptance criteria while a completion claim remains unverified",
+    "Explicit owner criterion review creates timestamped provenance and a verified receipt",
+    "Editing task meaning invalidates previous owner review and verification",
+    "Restart preserves criteria and stale evidence without restoring a false verified state"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI, IPC, SQLite and explicit manual evidence; no external deployment/CI claimed"
+}

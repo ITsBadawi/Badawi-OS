@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21T18:50:23.445763+00:00",
+  "version": "0.2.0",
+  "packagedDesktopChecks": 32,
+  "packagedChatFixtureChecks": 13,
+  "liveGeminiChecks": 10,
+  "liveModel": "gemini-2.5-flash",
+  "liveDriveVerified": false,
+  "liveOpenAIVerified": false,
+  "ownerSchemaUpgrade": {
+    "legacyDataPreserved": true,
+    "schema": 2,
+    "integrity": "ok"
+  },
+  "sha256": {
+    "dist-desktop/main.cjs": "dc223e8d423e161a763cbf97483749c12fdbfd27959f24833623c068d86d1888",
+    "dist-desktop/preload.cjs": "92c280969398c04e9eb5c82186006f77a1ebd56e27e5348aea3ef1fb06240f54",
+    "dist/index.html": "c4e31c700fc5d142beac58e8c839afa8b3254b566236e9002064e253b6137f88",
+    "Badawi OS.exe": "8e84549b05d27d444da2957653200d1e0ac287eff0fc5722b92835b9e0821a59"
+  }
+}

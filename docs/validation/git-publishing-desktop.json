@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24T06:42:44.907Z",
+  "checks": [
+    "Native file picker shows recent changes, blocks secret paths and previews only selected files without committing",
+    "Native approval creates only the chosen local commit and preserves unselected work",
+    "Push has a distinct native review bound to linked repository, branch and exact local and remote commits"
+  ],
+  "errors": [],
+  "livePush": false
+}

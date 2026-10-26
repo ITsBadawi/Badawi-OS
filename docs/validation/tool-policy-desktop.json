@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T06:59:53.566Z",
+  "liveProvider": false,
+  "checks": [
+    "Automatic policy requires an explicit owner confirmation before persistence",
+    "System commands remain locked forbidden and deletion cannot be automatic",
+    "Real chat executes a scoped automatic task, persists the receipt and identifies policy authorization accurately",
+    "Restart restores the explicit policy and receipt but never replays the automatic action or AI request"
+  ],
+  "errors": []
+}

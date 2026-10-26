@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22T10:30:48.048Z",
+  "live": true,
+  "scope": "drive.file",
+  "checks": [
+    "Real Desktop OAuth completed with drive.file and an offline refresh token",
+    "Real resumable upload checkpoints safely after the first 256 KiB chunk",
+    "Real refresh-token exchange and process-state reopening resume the same remote backup",
+    "Real Google Drive listing finds the uploaded app backup",
+    "Downloaded ciphertext hash matches; exported recovery key restores exact synthetic notes into a new database",
+    "Restored schedules are disabled, roots cleared, engine Stopped and credentials absent",
+    "Real Drive round trip restores exact selected source and binary asset plus persistent memory and rich task; secrets excluded",
+    "Current compressed encrypted format restores exact bytes from real Drive",
+    "Unchanged snapshot reuses the same real Drive object after authenticated metadata/digest checks",
+    "Real downloaded snapshot supports exact selective file restore and owner exclusions",
+    "Official authenticated Drive capacity query succeeds with the existing drive.file grant"
+  ],
+  "errors": [],
+  "syntheticOnly": true,
+  "bytes": 387940,
+  "cloudObjectsRetained": true,
+  "ownerDataUploaded": false,
+  "cleanDeviceOAuthTested": false,
+  "workingTreeFeatures": true,
+  "compressed": true
+}

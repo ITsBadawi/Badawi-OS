@@ -1,0 +1,54 @@
+
+> badawi-os@0.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ notes and task completion persist across reopening without exposing secret values (39.8335ms)
+✔ a newer database schema is refused without downgrading its version (29.5351ms)
+✔ pending runs are capped at twenty per automation (3.5018ms)
+✔ audit verification detects a changed record (1.0663ms)
+✔ duplicate occurrence cannot create two executions (1.7978ms)
+✔ a catch-up is persisted as blocked in the same transaction as its occurrence (1.8544ms)
+✔ a queued run from a previous process is held for review on restart (3.3321ms)
+✔ transaction rolls back all writes on failure (1.1967ms)
+✔ startup stops engine and marks interrupted runs for review (1.4576ms)
+✔ Gaming off never resumes a stopped or paused engine (2.1618ms)
+✔ stale epoch mutations cannot overwrite more recent engine control (1.4797ms)
+✔ Stop shows draining until the running operation acknowledges cancellation (2.6141ms)
+✔ Gaming prevents heavy manual work but preserves requested Running (2.1559ms)
+✔ daily schedule uses the selected timezone (32.4284ms)
+✔ DST spring gap is skipped and repeated autumn time occurs only once (4.2308ms)
+✔ once triggers expire and weekly invalid zones fail closed (0.8567ms)
+✔ scheduler records an occurrence once and skip policy cannot backfill a missed day (6.2092ms)
+✔ Gaming coalesced schedule needs an explicit decision and never runs when disabled (5.2395ms)
+✔ a held catch-up runs only after user approval and cannot be approved twice (3.098ms)
+✔ coalescing multiple paused days retains only the latest held occurrence (9.156ms)
+✔ coalescing after a long stop finds the latest occurrence within the last day (4.3282ms)
+✔ interrupted Drive upload resumes at the server offset, reuses file id and verifies decrypt (38.8735ms)
+✔ export commits a complete file and an interrupted replacement preserves the old file (30.416ms)
+✔ Git wrappers inspect a real repository without writing its index or running helpers (599.1684ms)
+✔ OpenAI preserves all text items, store=false and no tools; usage normalized (21.3459ms)
+✔ Gemini text-only stateless protocol maps usage and cannot execute tool proposals (1.2627ms)
+✔ HTTP auth errors are sanitized; missing usage remains unknown; refusal fails (1.2371ms)
+✔ encrypted backup rejects ciphertext edits and wrong recovery key (1.5196ms)
+✔ restoring into a new directory disables jobs and excludes credentials (46.6631ms)
+✔ malformed backup row types are rejected before a restore directory is created (2.5918ms)
+✔ a completed mutation replays its saved result across a restart without another write (47.9935ms)
+✔ a pending mutation recovered after a crash is held for review rather than repeated (1.3905ms)
+✔ renderer assets are confined to the compiled UI directory, not arbitrary file URLs (1.8792ms)
+✔ IPC schema denies arbitrary filesystem, shell and extra properties (3.0086ms)
+✔ note mutations persist and snapshot never returns provider keys (5.2624ms)
+✔ approval is bound to epoch; changed engine invalidates an outgoing payload (2.1966ms)
+✔ draft schedules remain disabled and report jobs require registered project (16.3808ms)
+✔ an enabled schedule in the past must not silently become a schedule that never runs (1.4137ms)
+✔ root inspection excludes secrets and dependencies and never changes source (24.6187ms)
+✔ linked files and binary content cannot leak through previews (10.1177ms)
+✔ directory junction escape is refused (7.9899ms)
+✔ a scan cancelled while a directory read is pending does not finish the whole directory (25.2267ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 979.917

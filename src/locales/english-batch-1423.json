@@ -1,0 +1,9 @@
+{
+"1423":"Language",
+"1424":"Choose projects whose current and future files you want in the encrypted backup. Secrets, links, dependencies and executables are excluded. The archive limit is 40 MiB and 5,000 files; individual files over 8 MiB are excluded. Files are saved with their hashes and restored into a new folder: code projects in projects, and file workspaces in workspaces with Files and Projects. Your current code is not replaced.",
+"1425":"Arabic",
+"1426":"Changes the interface language, direction and dates. Your conversations, file names and notes stay as you wrote them.",
+"1427":"App language saved",
+"1428":"App language",
+"1429":"Interface language"
+}

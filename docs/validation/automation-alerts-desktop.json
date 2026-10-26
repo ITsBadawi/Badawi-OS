@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24T06:59:35.728Z",
+  "checks": [
+    "Native startup converts a seeded interrupted legacy run into one visible durable review alert",
+    "An actual missing-key backup failure becomes a plain-language Inbox alert while disabled desktop notifications remain suppressed",
+    "A further restart retains both alerts and does not replay or duplicate notifications"
+  ],
+  "errors": [],
+  "scope": "Actual Electron recovery, failed backup execution, SQLite and Inbox UI in an isolated diagnostic profile. Interrupted legacy rows are seeded fixtures; no cloud request or visible Windows toast claimed."
+}

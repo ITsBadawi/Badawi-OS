@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T06:58:29.458Z",
+  "checks": [
+    "Actual English owner editor defaults retries off, saves reviewed bounded policy separately from integration consent, and sends nothing while stopped",
+    "A real Electron timer retries only the failed GET after its delay, completes the same occurrence, retains both attempts and publishes one actual inspection receipt",
+    "Owner cancels a waiting retry through its actual run-row control; the durable run clears its retry time",
+    "Real restart preserves the ledger and protected credential but holds the pending retry for owner review, creates a durable alert and makes no request"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI, timer, Windows encryption and SQLite restart; isolated synthetic project and controlled Vercel transport, not owner-account acceptance"
+}

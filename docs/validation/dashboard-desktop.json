@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T06:53:23.436Z",
+  "checks": [
+    "Native dashboard context filters actual tasks/projects while all source records and stopped engine remain unchanged",
+    "Owner pins an actual note, previews its exact content and keeps the pin across contexts; review mode exposes unverified completion",
+    "Context and pins persist through restart; archiving the focused project leaves an explicit unavailable scope rather than widening it; unpin persists",
+    "No provider/cloud calls, no renderer errors and no document-wide overflow at compact width"
+  ],
+  "errors": [],
+  "scope": "Actual Electron UI, local synthetic tasks/projects/note, SQLite persistence and restart; no owner profile or external requests"
+}

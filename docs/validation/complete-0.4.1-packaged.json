@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24T12:02:56.353Z",
+  "liveAI": false,
+  "fixtures": "AI transport only; real Electron UI, IPC, filesystem and SQLite",
+  "checks": [
+    "Workspace path entered through Files UI persists as a real canonical project",
+    "Files UI previews actual source content",
+    "Save copy exports actual bytes through the native host",
+    "Binary image asset has a real image preview",
+    "Folder navigation displays nested source file",
+    "Secret file is absent from Files list",
+    "Task board saves description, priority, status, dates and subtasks",
+    "Real chat displays an approval card without prematurely changing tasks",
+    "Approving in chat creates actual task and persistent memory",
+    "Assistant continues after actual host receipts",
+    "Workflow editor runs two actual durable steps",
+    "Actual maintenance timer delivers a due task reminder while the window is hidden",
+    "Notification preference persists through real IPC",
+    "AI-created memory is editable from Settings",
+    "Compact task board has no document-wide horizontal overflow",
+    "Restart preserves workspace, rich tasks, memory, workflows and notification preference",
+    "Restart begins with the engine safely stopped",
+    "No renderer runtime errors"
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "environment": "Actual Badawi OS Electron source build; isolated temporary profile; official owner ChatGPT subscription connection",
+  "model": "gpt-6.1-sol",
+  "checks": [
+    "Owner completed official browser sign-in and subscription sharing was enabled",
+    "The real model used task.list and received the current synthetic task list",
+    "The response described a two-day plan and proposed exactly one task.save for the flexible task",
+    "The proposed due date was 2026-10-27T09:00:00Z; it stayed unchanged before approval",
+    "After the exact action was reviewed and approved, only the flexible due date changed",
+    "The synthetic fixed deadline remained 2026-10-26T12:00:00Z",
+    "The test connection was disconnected and its temporary profile was removed"
+  ],
+  "accountIdentifiersRecorded": false,
+  "ownerProjectFilesUsed": false,
+  "ownerInstalledProfileTouched": false,
+  "limits": "This verifies one live day/week planning request and approval path, not every possible model response or future subscription availability."
+}

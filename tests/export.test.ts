@@ -1,0 +1,20 @@
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { mkdtemp, readFile, writeFile, readdir, rm } from "node:fs/promises";
+import path from "node:path";
+import { tmpdir } from "node:os";
+import { atomicExport } from "../src/desktop/export.ts";
+test("export commits a complete file and an interrupted replacement preserves the old file", async () => {
+  const dir = await mkdtemp(path.join(tmpdir(), "badawi-export-"));
+  const file = path.join(dir, "recovery.json");
+  await atomicExport(file, "original");
+  const control = new AbortController();
+  const pending = atomicExport(file, "replacement", control.signal);
+  control.abort();
+  await assert.rejects(pending);
+  assert.equal(await readFile(file, "utf8"), "original");
+  assert.deepEqual(await readdir(dir), ["recovery.json"]);
+  await atomicExport(file, "complete replacement");
+  assert.equal(await readFile(file, "utf8"), "complete replacement");
+  await rm(dir, { recursive: true });
+});

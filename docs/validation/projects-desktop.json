@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22T10:54:39.986Z",
+  "checks": [
+    "Creation shows a review before creating an exclusive empty project under Projects",
+    "Project description, technologies and GitHub reference persist without writing code",
+    "Actual host GitHub request updates timestamped remote evidence without inventing local comparison",
+    "GitHub settings retain a protected credential without exposing it in snapshots or leaving the input filled"
+  ],
+  "errors": [],
+  "liveGitHub": false
+}

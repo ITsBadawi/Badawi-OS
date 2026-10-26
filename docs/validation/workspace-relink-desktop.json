@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-23T14:32:18.813Z",
+  "checks": [
+    "Actual restored profile opens with no path/AI/backup grants; separate Files/Projects bytes exist and owner can inspect/cancel reconnection without changing the registry",
+    "Changing the actual file manifest invalidates the one-use reconnect preview before registry or grants change",
+    "Reviewed reconnect preserves stable IDs, original bytes, tags and valid logical links, retains missing-path metadata, removes only approved broken links and disables related rules/source permissions",
+    "Reconnected metadata and disabled rules persist across actual Electron restart, pending approvals do not replay, audit remains valid and no provider/cloud request occurs"
+  ],
+  "errors": [],
+  "scope": "Actual full backup restore, new isolated Electron profile, real file bytes/layout, owner native UI preview/cancel/stale approval/reconnect and restart; no owner data or live cloud"
+}

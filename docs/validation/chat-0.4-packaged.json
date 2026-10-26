@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-24T07:04:14.165Z",
+  "live": false,
+  "model": "gemini-3.8-flash",
+  "checks": [
+    "A real IPC send produces a persisted assistant turn",
+    "Follow-up remembers 37",
+    "Conversation survives a full app restart",
+    "The restored transcript still contains the real follow-up",
+    "Restart respects Stop",
+    "AI proposal is reviewed before saving",
+    "AI draft starts disabled",
+    "A failed draft keeps a visible explanation after the transient toast disappears",
+    "Approved recipe reaches provider, Inbox and verified run",
+    "Budget settles reported usage",
+    "The real Node timer executes a once schedule into the Inbox",
+    "Chat has no horizontal overflow at 1366 pixels",
+    "No renderer runtime errors"
+  ],
+  "errors": []
+}

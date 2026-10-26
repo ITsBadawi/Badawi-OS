@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22T05:28:36.937Z",
+  "live": true,
+  "syntheticOnly": true,
+  "ownerDataSent": false,
+  "model": "gemini-2.5-flash",
+  "modelChecks": [
+    {
+      "model": "gemini-3.8-flash",
+      "listed": true,
+      "generation": "AI_HTTP_503"
+    }
+  ],
+  "checks": [
+    "Authenticated model discovery uses the actual official Google endpoint",
+    "Real Gemini 2.5 Flash produces host-validated task and memory commands; nothing changes before approval",
+    "Real Gemini plan executes in an isolated app database and receives actual host receipts",
+    "Real model continues the conversation after approved effects, with persisted native history",
+    "A new real conversation knows the saved task and owner-approved memory from live app context"
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23T10:00:44.271Z",
+  "liveGitHub": true,
+  "publicRepositoryOnly": true,
+  "credentialsUsed": false,
+  "checks": [
+    "Real GitHub API preview identifies a repository head without creating files before approval",
+    "Real restricted Git clone writes actual source, verifies the previewed commit and keeps credentials out of repository config",
+    "Actual local Git and real remote GitHub head comparison agree after cloning",
+    "Native restart preserves the project and never repeats the clone"
+  ],
+  "errors": []
+}

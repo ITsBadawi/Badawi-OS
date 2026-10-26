@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24T07:05:32.497Z",
+  "from": "0.3.0",
+  "to": "0.4.0",
+  "checks": [
+    "The preserved 0.3.0 package created only synthetic task and note records in an isolated profile",
+    "Opening 0.4.0 over the isolated 0.3.0 profile preserved exact records, started Stopped and made no permanent local update copy"
+  ],
+  "errors": [],
+  "ownerProfileTouched": false,
+  "temporaryProfileRemoved": true
+}

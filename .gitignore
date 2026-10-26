@@ -1,0 +1,8 @@
+node_modules/
+/dist/
+/dist-desktop/
+/release/
+/test-results/
+*.db*
+*.log
+.env*

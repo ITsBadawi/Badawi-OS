@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22",
+  "status": "not_verified",
+  "liveGitHub": true,
+  "publicRepositoryOnly": true,
+  "credentialsUsed": false,
+  "repository": "octocat/Hello-World",
+  "checks": ["A real native preview returned the GitHub default branch and immutable head without creating files", "Failed native clone did not register a successful project and removed its new temporary destination"],
+  "errors": ["GIT_CLONE_FAILED: direct github.com TCP port 443 connection timed out", "Later native API preview failed with GITHUB_NETWORK", "The matching standalone Git command also timed out connecting to the resolved GitHub address"],
+  "note": "One earlier standalone diagnostic clone succeeded. Native complete clone/compare/restart acceptance has not passed. Do not treat the UI or offline preview tests as successful live clone evidence. Retry this explicit live acceptance after network connectivity recovers."
+}

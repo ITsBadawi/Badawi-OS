@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T06:59:43.126Z",
+  "checks": [
+    "Actual SQLite completion claim and overdue task appear separately from verified acceptance",
+    "Refreshing reads the new host-verified acceptance and shows its source timestamp",
+    "Date filter applies to real report window; historical-source explanation and export are available",
+    "Project filter excludes unrelated claims and the rendered report has no document-wide horizontal overflow"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI, SQLite and host evidence; no external-source polling or cloud receipt claimed"
+}

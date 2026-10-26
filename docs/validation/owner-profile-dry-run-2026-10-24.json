@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-24",
+  "sourceVersionFromInstalledShortcut": "0.3.0",
+  "testedPackagedVersion": "0.4.1",
+  "method": "Temporary copy of the actual owner's database, Local State encryption metadata and encrypted ChatGPT session; no project files copied or account operation requested",
+  "checks": {
+    "databaseIntegrity": "ok",
+    "schema": 3,
+    "allCollectionCountsPreserved": true,
+    "projectNoteTaskChatPlanMemoryRecordBytesPreserved": true,
+    "engine": "Stop",
+    "chatgptStatus": "connected",
+    "rendererErrors": 0,
+    "originalDatabaseLocalStateAndChatGPTSessionHashesUnchanged": true,
+    "temporaryCopyRemoved": true
+  },
+  "harnessCorrection": "The first isolated copy omitted Local State and therefore could not decrypt the copied credentials. Copying the required encryption metadata resolved this test setup issue without an application change.",
+  "limitations": [
+    "This validates the actual profile in a temporary copy; installed shortcuts had not yet been changed by this test.",
+    "No cloud request, backup, restore or project-file operation was requested."
+  ]
+}

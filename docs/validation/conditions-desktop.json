@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T06:59:31.731Z",
+  "checks": [
+    "Owner editor previews actual local overdue count and saves an enabled condition without running while Stop",
+    "Actual local timer observes the condition and delivers one durable reminder with a timestamped observation",
+    "Restart restores the matching latch and a fresh real timer cycle does not replay the still-true condition",
+    "A manual run rechecks a changed condition and visibly records skipped without another reminder or false success"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI, SQLite and two actual timer cycles in an isolated profile; synthetic tasks and reminders, no provider or cloud call"
+}

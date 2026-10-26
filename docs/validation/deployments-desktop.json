@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T07:00:16.969Z",
+  "checks": [
+    "Owner saves separate protected Vercel and Railway tokens; credential inputs clear after host confirmation",
+    "Native project link controls feed read-only adapters and display exact provider receipts with observation times (controlled remote responses)",
+    "Actual task verification consumes the linked deployment receipt and explicit owner acceptance",
+    "Windows encrypted secrets and historical receipts survive restart; engine stays stopped without replaying checks"
+  ],
+  "errors": [],
+  "scope": "Real Electron/SQLite/Windows safeStorage with controlled deployment API responses. No real owner Vercel/Railway account or deployment has been verified or changed."
+}

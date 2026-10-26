@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "Starts Stopped",
+    "Sandbox has no Node",
+    "Engine runs",
+    "Gaming off preserves Stop",
+    "Note created",
+    "Untrusted note stays text",
+    "Task completion persists",
+    "Native-selected root added",
+    "Real file preview works and excludes secret",
+    "Local automation creates verified output",
+    "Dark theme persisted",
+    "No horizontal overflow at minimum width",
+    "Restart preserves notes",
+    "Restart stops engine",
+    "Main process rejects extra IPC capabilities",
+    "Real OS secret store does not return keys to renderer",
+    "SQLite and WAL contain no plaintext provider key",
+    "Keyboard search finds local content",
+    "Page renders: الإعدادات",
+    "Page renders: النسخ الاحتياطية",
+    "Page renders: سجل التحقق",
+    "Page renders: المشاريع",
+    "Page renders: الملفات",
+    "Page renders: الأتمتة",
+    "Page renders: الوارد",
+    "Page renders: الملاحظات",
+    "Native export commits a verified sanitized audit file",
+    "No renderer runtime errors"
+  ],
+  "errors": []
+}

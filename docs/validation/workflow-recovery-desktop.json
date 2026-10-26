@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T17:02:05.505Z",
+  "checks": [
+    "Actual partial failure retains a proven first-step receipt; a full restart requires an explicit extra confirmation and cancellation performs no effects",
+    "Native review displays the exact historical receipt and remaining steps; preview and Cancel do not repeat a step or contact a service",
+    "Real restart preserves bound proof while starting stopped; a fresh owner review resumes only remaining steps, retaining one prefix receipt and both actual attempts",
+    "Compact native workflow view has no document-wide overflow or renderer errors; controlled transport never touches owner accounts"
+  ],
+  "errors": [],
+  "scope": "Actual Electron review/cancel/continuation UI, SQLite and protected credential restart, synthetic workflow with controlled Vercel reads; no owner cloud effects or live provider assertion"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-23",
+  "environment": "Real Windows Electron app with a separate temporary data profile; actual owner-controlled OpenAI browser consent",
+  "checks": [
+    "Official browser sign-in completed and the app reported connected with subscription sharing enabled",
+    "Official model discovery returned seven models for the connected account",
+    "An explicit connection check returned OK from gpt-6.1-sol using the ChatGPT subscription provider",
+    "Restart restored connected status, sharing permission and the selected model; engine restarted in Stop",
+    "Disconnect reported disconnected with sharing disabled",
+    "Owner completed a second official browser sign-in and sharing was enabled again",
+    "A second explicit connection check returned OK from gpt-6.1-sol",
+    "Final disconnect reported disconnected; temporary test profile was removed"
+  ],
+  "accountIdentifiersRecorded": false,
+  "ownerProjectFilesUsed": false,
+  "paidOpenAIApiKeyUsed": false,
+  "remaining": "This does not verify future subscription eligibility, usage limits, or other providers' owner accounts."
+}

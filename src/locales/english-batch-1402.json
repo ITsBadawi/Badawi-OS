@@ -1,0 +1,23 @@
+{
+"1402":"Your choice is saved when you close the app.",
+"1403":"Manual",
+"1404":"Sends current task titles, status, priorities and dates to the selected service, then saves a short daily plan in your Inbox with a Windows notification. Also includes tasks you add later.",
+"1405":"AI sees the conversation, saved tasks, project details, automation, memory and your selected attachments. It can read projects you authorize; actions appear for review before execution. Project code is read only.",
+"1406":"Uses an additional AI request and shows a draft for review",
+"1407":"Continues in the system tray; reminders work while the engine runs.",
+"1408":"Signs in through your usual browser. A temporary local callback opens only during sign-in and closes afterwards.",
+"1409":"Applies to new conversations and suggestions. Existing conversations and schedules keep their selected provider. Any request still requires a configured service and your usual authorization.",
+"1410":"Running now",
+"1411":"Runs once when first observed met, then requires an unmet observation before the next automatic run. Pause, Stop and Gaming Mode defer observation; resuming checks only the current state. Manual runs also recheck the condition.",
+"1412":"Running…",
+"1413":"Starts hidden in the system tray. The engine starts stopped for safety.",
+"1414":"Preparing suggestions…",
+"1415":"Writing…",
+"1416":"Sign in again",
+"1417":"You can enable it in the startup settings above.",
+"1418":"A file or folder already has this name; select a new path. Nothing was replaced.",
+"1419":"A missed run needs your approval before it can start.",
+"1420":"days",
+"1421":"Your day, step by step.",
+"1422":"Daily"
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24T17:01:53.457Z",
+  "checks": [
+    "Native preview describes exact pending local stage and leaves bytes intact on cancellation",
+    "Explicit confirmation removes only reviewed temporary bytes, records actual cleanup and makes zero cloud requests",
+    "Restart preserves the discarded receipt and stopped engine without resuming the old attempt"
+  ],
+  "errors": [],
+  "scope": "Real Electron/SQLite/filesystem with synthetic staged bytes in an isolated profile; no Google Drive request or owner file changed"
+}

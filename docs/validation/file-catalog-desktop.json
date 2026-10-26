@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T06:55:59.271Z",
+  "checks": [
+    "Native central catalog refresh is gated by engine mode, reads real managed Files and excludes project code and secrets",
+    "Inbox workflow discovers an unclassified real file, opens exact bytes, saves category/tag/logical project link and removes it from the pending classification filter",
+    "Reviewed move preserves bytes and logical project metadata; central category/tag/extension/project filters find only the new path after refresh",
+    "Central content search reads actual indexed text with its line and source timestamps rather than fabricated snippets",
+    "Projects catalog opens the actual code reader, hides work-file mutation controls and leaves source bytes unchanged",
+    "Actual file-discussion UI and two controlled provider rounds read only the selected file; the central content tool cannot send indexed sibling names or contents without an independent project grant",
+    "Central cache and file metadata survive restart; a deleted cached result fails actual preview instead of displaying stale bytes as current"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI, actual synthetic text/binary files, SQLite catalogs/indexes/classification, reviewed moves and restart; no owner source/profile or live network requests; two provider rounds use controlled transport"
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "account": "itsbadawi",
+  "readOnly": true,
+  "surface": "connected Vercel tool, outside Badawi OS",
+  "project": {
+    "id": "prj_ywuXmamRPqG24nwh8cRSxGmi7wHW",
+    "name": "badawi-card"
+  },
+  "checks": [
+    {
+      "operation": "list deployments for project with explicit team ID",
+      "result": "HTTP 403"
+    },
+    {
+      "operation": "list deployments for project through account default team",
+      "result": "three records returned"
+    },
+    {
+      "operation": "read exact production deployment",
+      "id": "dpl_L54ixfYdgRrSAEtxSd2yoL2feqMy",
+      "state": "READY",
+      "commitSha": "178183afe0c7e5065e7deb39f8041a6e4d7f058c"
+    },
+    {
+      "operation": "read exact non-ready production deployment",
+      "id": "dpl_DjVqrzUbDxZBjWpKFGJoXSP4rC1C",
+      "state": "BLOCKED",
+      "commitSha": "aafc43f35b4e3486d197a8afd40d82efaad2b46d"
+    }
+  ],
+  "limitations": [
+    "These real reads prove the connected Vercel account can return deployment state and revision metadata. They do not exercise Badawi OS's own stored token or UI.",
+    "The connected tool's explicit-team 403 remains unresolved; omitting team ID works for this account's default team.",
+    "No deployment, project setting, alias or source file was changed."
+  ]
+}

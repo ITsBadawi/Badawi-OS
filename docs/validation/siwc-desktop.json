@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-23T10:00:46.161Z",
+  "liveOAuth": false,
+  "remoteTransport": "Controlled official endpoint responses; real DevKit, Electron, Windows encryption, IPC, SQLite and loopback",
+  "checks": [
+    "Official SDK connects through real native IPC, PKCE callback and verified identity with controlled remote transport",
+    "Settings discovers and persists the actual returned model",
+    "Windows safeStorage encrypts credential file and renderer snapshot exposes no tokens",
+    "Text appears in renderer while subscription response is still streaming",
+    "Conversation uses only the SIWC credential and never sends a paid-key request",
+    "Native restart restores encrypted session, selected model and conversation"
+  ],
+  "errors": []
+}

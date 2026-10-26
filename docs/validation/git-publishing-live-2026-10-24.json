@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T06:34:23.310Z",
+  "repository": "https://github.com/itsbadawiit/badawi-os-parity-test-20261023",
+  "private": true,
+  "checks": [
+    "Private GitHub repository preview and actual authenticated clone succeeded in an isolated workspace",
+    "Exact synthetic file was locally committed; unselected and secret-like files remained outside the commit",
+    "Actual GitHub Push was confirmed at the exact commit, with unselected and secret files still local"
+  ],
+  "localHead": "53d03aee39395b6c03161ae3bb4e8926c62fd814",
+  "remoteHead": "53d03aee39395b6c03161ae3bb4e8926c62fd814",
+  "temporaryProfileRemoved": true,
+  "errors": []
+}

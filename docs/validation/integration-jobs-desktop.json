@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24T17:04:53.788Z",
+  "checks": [
+    "Native owner editor shows exact project target; enabling without independent integration consent performs no requests and stores no rule",
+    "Real Electron timer executes only bounded GET reads; failed deployment health remains explicit while the inspection run completes with a durable timestamped receipt",
+    "Windows-protected credential, exact grant, source receipt and condition latch survive restart without replaying the still-true monitor",
+    "Changing the linked deployment revokes the grant; manual execution is blocked before any request or new inspection"
+  ],
+  "errors": [],
+  "scope": "Real Electron UI/timers/SQLite/Windows credential store; synthetic isolated profile and controlled Vercel transport. No owner account or live service acceptance claimed."
+}

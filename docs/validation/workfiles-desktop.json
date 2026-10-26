@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24T06:56:34.178Z",
+  "checks": [
+    "Workspace creates separate Files/Projects and Inbox after explicit UI confirmation",
+    "Empty folder appears after preview and confirmed real filesystem creation",
+    "File classification and logical project link persist without duplicating its bytes",
+    "Reviewed move preserves exact bytes and removes original only after verification",
+    "Moved file opens from its new folder",
+    "Content index is built and queried through the renderer with source-line evidence"
+  ],
+  "errors": []
+}

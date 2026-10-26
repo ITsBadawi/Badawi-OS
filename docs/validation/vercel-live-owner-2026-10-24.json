@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-24",
+  "account": "itsbadawi",
+  "surface": "packaged Badawi OS 0.4.1 with an isolated temporary local profile",
+  "credential": {
+    "name": "Badawi OS temporary read test",
+    "scope": "Itsbadawi / badawi-card",
+    "expiration": "1 hour",
+    "enteredOnlyInApplicationSettings": true,
+    "storedInReceipt": false
+  },
+  "project": {
+    "id": "prj_ywuXmamRPqG24nwh8cRSxGmi7wHW",
+    "teamId": "team_xhN6PVhfNt9iPWrqcGGaIgUZ",
+    "target": "production"
+  },
+  "checks": [
+    {
+      "operation": "protected credential save through visible Settings UI",
+      "result": "configured"
+    },
+    {
+      "operation": "real read-only deployment check from Badawi OS",
+      "result": "verified",
+      "state": "READY",
+      "deploymentId": "dpl_L54ixfYdgRrSAEtxSd2yoL2feqMy",
+      "observedAt": "2026-10-24T12:33:43.967Z"
+    },
+    {
+      "operation": "independent connected-account deployment list",
+      "result": "matching production READY deployment ID"
+    },
+    {
+      "operation": "application restart",
+      "credentialStillConfigured": true,
+      "engine": "Stop",
+      "historicalDeploymentId": "dpl_L54ixfYdgRrSAEtxSd2yoL2feqMy"
+    },
+    {
+      "operation": "disconnect in isolated application profile",
+      "credentialStillConfigured": false,
+      "cachedReceiptPresent": false
+    },
+    {
+      "operation": "post-check exit regression after shutdown fix",
+      "sourceExit": "passed",
+      "packagedExit": "passed"
+    }
+  ],
+  "cleanup": {
+    "isolatedApplicationProfileRemoved": true,
+    "remoteTokenRevocation": "deleted in Vercel after separate owner confirmation; success toast observed and token absent from list"
+  },
+  "limitations": [
+    "No requested commit SHA was supplied for this check, so this receipt verifies provider state and deployment identity, not an exact commit criterion.",
+    "Only a READY deployment was exercised through Badawi OS. The connected account separately exposed a BLOCKED deployment.",
+    "No deployment or owner project was modified."
+  ]
+}

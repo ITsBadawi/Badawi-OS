@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Owner saves an executable through Settings; the actual Windows process activates Gaming without starting the stopped engine",
+    "Removing the watched process clears only automatic Gaming, preserving manual Gaming",
+    "Restart preserves manual Gaming and leaves automatic observation transient"
+  ],
+  "errors": []
+}

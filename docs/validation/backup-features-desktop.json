@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24T17:00:56.479Z",
+  "liveDrive": false,
+  "transport": "Controlled OAuth/Drive responses; real Electron, SQLite, encryption, filesystem, settings and restore",
+  "checks": [
+    "Capacity UI reads the official authenticated quota fields",
+    "Owner-defined plan expiry is saved through the real settings flow",
+    "Selected source is compressed, encrypted, uploaded, downloaded and verified through the real host",
+    "Second unchanged backup checks the remote object without another upload",
+    "Manifest excludes the owner-excluded file",
+    "Selected file restores exact bytes into a new folder without an active database",
+    "Retention settings, protected copy, exact preview, explicit confirmation and remote trash receipt preserve three healthy copies",
+    "The real Node timer uploads and verifies an encrypted backup containing only the scheduled project and its allowed file scope",
+    "Paused due backups obey skip or owner-review policy without uploading either occurrence",
+    "One-use owner review runs only the held project's actual encrypted backup and refuses replay"
+  ],
+  "errors": []
+}

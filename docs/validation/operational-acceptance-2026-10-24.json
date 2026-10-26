@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "testedPackage": "0.4.1",
+  "scope": "Final local operational audit using isolated profiles, actual Electron IPC, SQLite, Windows encryption, Node timers and filesystem; controlled remote transport",
+  "results": [
+    { "receipt": "backup-features-desktop.json", "passed": 10, "errors": 0 },
+    { "receipt": "backup-checkpoint-desktop.json", "passed": 3, "errors": 0 },
+    { "receipt": "integration-jobs-desktop.json", "passed": 4, "errors": 0 },
+    { "receipt": "workflow-recovery-desktop.json", "passed": 4, "errors": 0 }
+  ],
+  "verifiedBehavior": [
+    "Scheduled backup uploads, downloads and decrypts only the selected project's included files, preserving exclusions.",
+    "Paused due backup occurrences either skip or wait for one-use owner review; review executes only the held project and cannot replay.",
+    "Retention preview and explicit recoverable trash preserve protected copies and the required healthy-copy floor.",
+    "Discarding an old local checkpoint removes only reviewed temporary bytes, makes no cloud call and stays discarded after restart.",
+    "Scheduled monitoring stores actual source/time/state, preserves grants and its condition latch across restart, and blocks reads after source changes.",
+    "Reviewed workflow continuation retains successful prefix receipts and executes only remaining steps after restart."
+  ],
+  "harnessCorrection": "The monitor screenshot timed out while its diagnostic window was hidden. Showing that test window for capture resolved the harness failure; the complete rerun passed.",
+  "relatedLiveEvidence": "drive-live-current.json separately records eleven real-account synthetic-data checks, including interrupted upload, restart, download/decrypt/restore and quota.",
+  "limits": [
+    "No owner cloud copy was trashed in this audit; live destructive retention is not claimed.",
+    "Railway live account testing remains deferred by the owner."
+  ]
+}

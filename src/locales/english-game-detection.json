@@ -1,0 +1,15 @@
+{
+  "أدخل اسم ملف التشغيل لكل لعبة، مثل game.exe، في سطر مستقل. يفحص البرنامج أسماء العمليات فقط كل 30 ثانية ولا يغيّر اللعبة.": "Enter each game's executable name, such as game.exe, on its own line. The app checks process names every 30 seconds and does not change the game.",
+  "إغلاق اللعبة يرفع التفعيل التلقائي فقط؛ اختيارك اليدوي وحالة المحرك يبقيان كما هما.": "Closing the game removes only automatic Gaming Mode. Your manual choice and engine mode remain unchanged.",
+  "اكتب اسم ملف تشغيل ينتهي بـ .exe فقط، دون مسار أو أمر إضافي.": "Enter only an executable name ending in .exe, without a path or extra command.",
+  "حفظ قائمة الألعاب": "Save game list",
+  "حُفظت قائمة الألعاب": "Game list saved",
+  "فعّله يدوياً أو حدد ألعابك في الإعدادات": "Turn it on manually or choose games in Settings",
+  "كشف الألعاب تلقائياً": "Automatic game detection",
+  "لا توجد لعبة محددة قيد التشغيل حالياً.": "No selected game is running right now.",
+  "لعبة محددة تعمل الآن؛ التفعيل التلقائي نشط": "A selected game is running; automatic Gaming Mode is active",
+  "لعبة محددة تعمل الآن؛ وضع اللعب التلقائي مفعّل.": "A selected game is running; automatic Gaming Mode is on.",
+  "ملفات تشغيل الألعاب": "Game executable names",
+  "يمكن إضافة حتى 30 لعبة فقط.": "You can add up to 30 games.",
+  "المجلد: {0}\nSHA-256 للتنفيذ: {1}\nاختر تحديثاً نزّلته من مصدر تثق به. تبقى بياناتك في مجلد البرنامج، ولا تُنشأ نسخة احتياطية محلية دائمة.": "Folder: {0}\nExecutable SHA-256: {1}\nChoose an update downloaded from a source you trust. Your data stays in the app data folder; no permanent local backup is created."
+}

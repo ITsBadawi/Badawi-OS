@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-22T10:54:04.904Z",
+  "live": true,
+  "publicRepositoryOnly": true,
+  "credentialsUsed": false,
+  "checks": [
+    "Official current-version GitHub REST API returns the public repository and default branch head",
+    "Unavailable local repository is marked unverified",
+    "Exact immutable matching head produces an identical receipt"
+  ],
+  "errors": [],
+  "repository": "octocat/Hello-World",
+  "branch": "master",
+  "remoteHead": "7fd1a60b01f91b314f59955a4e4d4e80d8edf11d"
+}

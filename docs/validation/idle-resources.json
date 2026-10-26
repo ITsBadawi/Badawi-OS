@@ -1,0 +1,86 @@
+{
+  "note": "Short hidden-window diagnostic, not T33 game benchmark. RSS sums may count shared pages more than once. No FPS claim.",
+  "samples": [
+    {
+      "mode": "Stopped",
+      "processes": [
+        {
+          "type": "Browser",
+          "cpu": 0,
+          "rssKiB": 108968
+        },
+        {
+          "type": "GPU",
+          "cpu": 0,
+          "rssKiB": 72132
+        },
+        {
+          "type": "Utility",
+          "cpu": 0,
+          "rssKiB": 51260
+        },
+        {
+          "type": "Tab",
+          "cpu": 0,
+          "rssKiB": 105496
+        }
+      ],
+      "totalRSSMiB": 329.9375,
+      "totalCPU": 0
+    },
+    {
+      "mode": "RunningIdle",
+      "processes": [
+        {
+          "type": "Browser",
+          "cpu": 0.01833619334117918,
+          "rssKiB": 109352
+        },
+        {
+          "type": "GPU",
+          "cpu": 0.010408479266222966,
+          "rssKiB": 72220
+        },
+        {
+          "type": "Utility",
+          "cpu": 0.010918192058967801,
+          "rssKiB": 51260
+        },
+        {
+          "type": "Tab",
+          "cpu": 0.019739382374001673,
+          "rssKiB": 108552
+        }
+      ],
+      "totalRSSMiB": 333.3828125,
+      "totalCPU": 0.059402247040371614
+    },
+    {
+      "mode": "Gaming",
+      "processes": [
+        {
+          "type": "Browser",
+          "cpu": 0.007506345441684351,
+          "rssKiB": 109428
+        },
+        {
+          "type": "GPU",
+          "cpu": 0.030587941580327047,
+          "rssKiB": 72404
+        },
+        {
+          "type": "Utility",
+          "cpu": 0.0000798900233937961,
+          "rssKiB": 51276
+        },
+        {
+          "type": "Tab",
+          "cpu": 0.033006197329225925,
+          "rssKiB": 112064
+        }
+      ],
+      "totalRSSMiB": 337.08203125,
+      "totalCPU": 0.07118037437463112
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24T06:54:48.512Z",
+  "checks": [
+    "Owner changes Arabic to English through actual Settings; labels, direction and success message update without changing engine or credentials",
+    "All twelve native pages display English app labels and fit the window, while Arabic owner titles remain unchanged",
+    "English light/dark modes, expanded tool permissions, real Ctrl+K search and side assistant work; launcher follows LTR layout",
+    "List, Calendar and Kanban switch correctly; the actual task editor and calendar labels are translated",
+    "English preference survives a real restart; switching back restores Arabic RTL and keeps exact original owner data",
+    "No external requests or renderer errors; all checks use an isolated synthetic profile"
+  ],
+  "errors": []
+}

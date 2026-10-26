@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-22T05:39:55.304Z",
+  "version": "0.3.0",
+  "ownerDataCountsPreserved": true,
+  "schema": 3,
+  "driveConnected": true,
+  "engine": "Stop",
+  "model": "gemini-2.5-flash",
+  "ownerConnection": "passed",
+  "notificationShown": true,
+  "notificationDispatched": true,
+  "shortcutsInstalled": true,
+  "credentialsExposed": false
+}

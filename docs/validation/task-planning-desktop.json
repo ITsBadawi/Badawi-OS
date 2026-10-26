@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24T06:55:13.657Z",
+  "checks": [
+    "Editor persists recurrence and fixed deadline through real IPC",
+    "List displays a single unified task list",
+    "Day calendar places the task on its Baghdad date",
+    "Week calendar renders seven dates and an undated group",
+    "Fixed date does not change before confirmation",
+    "Confirmed deadline edit is committed",
+    "Completing in the renderer creates exactly one next occurrence",
+    "Calendar fits compact window",
+    "Restart preserves recurrence and completion"
+  ],
+  "errors": [],
+  "externalAI": false
+}

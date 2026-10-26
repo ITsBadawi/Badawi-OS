@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24T06:47:59.115Z",
+  "checks": [
+    "Stopping during an in-flight clone terminates the process, removes only its new destination and registers no project",
+    "A lost push response with unchanged remote stays unconfirmed and never retries its one-use approval",
+    "Stopping after Push starts reports uncertainty and preserves the local commit",
+    "A successful Git response without a confirming remote read remains unconfirmed",
+    "A lost push response is confirmed only when an independent remote read matches the exact local commit"
+  ],
+  "errors": [],
+  "liveGitHub": false
+}

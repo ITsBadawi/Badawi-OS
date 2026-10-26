@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T06:52:40.312Z",
+  "repository": "https://github.com/itsbadawiit/badawi-os-parity-test-20261023",
+  "workflowRun": "https://github.com/itsbadawiit/badawi-os-parity-test-20261023/actions/runs/40071870339",
+  "commit": "5a818f932cc73838875b9b1e09b75f5cf819fda5",
+  "checks": [
+    "Badawi OS read the real private GitHub Actions run for the exact synthetic commit, while withholding owner acceptance",
+    "Explicit owner criterion review plus fresh live CI evidence marked only the synthetic task verified",
+    "Restart restored the protected GitHub connection but kept the engine stopped until manually resumed",
+    "Disconnecting the private account prevented stale CI evidence from being presented as a fresh success"
+  ],
+  "errors": [],
+  "temporaryProfileRemoved": true
+}

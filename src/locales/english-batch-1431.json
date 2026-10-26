@@ -1,0 +1,14 @@
+{
+"1431":"Automatic retries are available only for authorized connection checks, with at most three attempts and a delay of 15–300 seconds.",
+"1432":"Retry connection checks automatically",
+"1433":"Maximum attempts",
+"1434":"Delay between attempts in seconds",
+"1435":"Next attempt: {0}",
+"1436":"Waiting to retry connection check",
+"1437":"You started a new manual inspection, so the older retry was cancelled to avoid an unnecessary extra read.",
+"1438":"Reads the service again only after a connection failure, up to the selected limit including the first attempt. This policy never automatically repeats AI requests, backups or workflow steps. Changes to the connection or authorization stop the retry; restarting the app requires review.",
+"1439":"The check definition, project connection or authorization changed; the retry was cancelled. Review the rule before running it again.",
+"1440":"A pending retry stopped when the app closed. Review the check before starting a new attempt; it will not repeat automatically after restart.",
+"1441":"Attempt history ({0})",
+"1442":"The queue is full. Review or cancel pending attempts before starting another one."
+}

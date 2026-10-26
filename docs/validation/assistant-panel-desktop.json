@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24T06:53:37.976Z",
+  "liveProvider": false,
+  "transport": "Controlled Gemini response; real Electron UI, chat, IPC and persistence",
+  "checks": [
+    "Assistant opens beside the current page without navigating away",
+    "Side assistant uses real provider dispatch and persisted multi-turn chat",
+    "Full conversation continues the same side-panel history",
+    "Explicit default-provider change controls new conversations without dispatching or changing old chats",
+    "Escape closes the assistant while preserving the current page"
+  ],
+  "errors": []
+}

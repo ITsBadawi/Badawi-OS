@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21T18:39:46.086Z",
+  "live": true,
+  "model": "gemini-2.5-flash",
+  "checks": [
+    "A real IPC send produces a persisted assistant turn",
+    "Follow-up remembers 37",
+    "Conversation survives a full app restart",
+    "The restored transcript still contains the real follow-up",
+    "Restart respects Stop",
+    "Real Gemini note-summary creates a verified run and Inbox result",
+    "Real provider usage settles a local reservation",
+    "Real Gemini automation proposal opens an unsaved disabled draft",
+    "Reviewed live proposal saves as a disabled local automation",
+    "No renderer runtime errors"
+  ],
+  "errors": []
+}
